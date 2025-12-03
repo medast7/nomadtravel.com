@@ -4,10 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Neptune Tours Morocco | Custom Guided Trips & Tours</title>
-
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,700&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
 
     <script>
         tailwind.config = {
@@ -16,16 +15,29 @@
                     colors: {
                         'brand-gold': '#C19B76',
                         'brand-dark': '#1A1A1A',
-                        'brand-green-dark': '#1f4e3d',
-                        'brand-cream': '#FAF9F6'
+                        'brand-green': '#25D366',
+                        'brand-green-dark': '#0F3D2E', 
+                        'brand-cream': '#FAF9F6',
+                        'brand-brown': '#2C241B', 
+                    },
+                    fontFamily: {
+                        'serif': ['"Playfair Display"', 'serif'],
+                        'sans': ['"Lato"', 'sans-serif'],
                     }
                 }
             }
         }
     </script>
 
-    <!-- FIXED: Correct Path for GitHub Pages -->
-    <script type="module" crossorigin src="assets/index-DSDnm_9h.js"></script>
+    <style>
+        body { font-family: 'Lato', sans-serif; overflow-x: hidden; }
+        h1, h2, h3, h4, h5, .font-serif { font-family: 'Playfair Display', serif; }
+        .hover-lift { transition: transform .3s ease, box-shadow .3s ease; }
+        .hover-lift:hover { transform: translateY(-5px); box-shadow: 0 10px 20px rgba(0,0,0,0.1); }
+    </style>
+
+    <!-- FIXED PATHS FOR GITHUB PAGES -->
+    <link rel="stylesheet" href="./index.css">
 
     <script type="importmap">
     {
@@ -38,6 +50,9 @@
       }
     }
     </script>
+
+    <!-- FIXED PATH HERE -->
+    <script type="module" crossorigin src="./assets/index-DSDnm_9h.js"></script>
 
 </head>
 
